@@ -6,7 +6,7 @@
 */
 class KeyNotFoundException extends Exception {
   public function errorMessage() {
-    $errorMsg = 'Error :: Invalid Keys Found';
+    $errorMsg = 'Error :: Invalid Key/s Found';
     return $errorMsg;
   }
 }
