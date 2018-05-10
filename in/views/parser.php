@@ -2,7 +2,7 @@
 	$file = file_get_contents("template.html");
 	echo $file;
 	
-	echo "<br><br>After Parsing<br><br>";
+	echo "<br>After Parsing<br>";
 	
 	$fread = fopen("template.html", "r") or die("can't read stdin");
 	$fwrite = fopen("template2.html", "w") or die("can't write stdin");
